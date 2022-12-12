@@ -1,5 +1,6 @@
 # Chord Finder
 A playable piano that recognises and outputs the chord that is entered by the user.
+
 ![image](https://user-images.githubusercontent.com/56166849/207119422-4963c6c0-5df6-4981-bb5e-fa4e3e2ed4f9.png)
 
 ## Packages Used
