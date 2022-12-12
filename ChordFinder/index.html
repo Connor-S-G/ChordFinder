@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Website created by Connor Groom -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/657/657225.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+    <link rel="stylesheet" href="style.css">
+    <title>Chord Finder</title>
+</head>
+<body>
+    <span class="header-container">
+        <span class="header">Chord Finder</span>
+    </span>
+    <div class="finder">
+        <span id="chord">_</span>
+        <div class="notes">
+            <span>_</span>
+        </div>
+    </div>
+    <div class="piano">
+        <div class="row">
+            <div class="tile white end" data-note=1></div>
+            <div class="tile black" data-note=2></div>
+            <div class="tile white" data-note=3></div>
+            <div class="tile black" data-note=4></div>
+            <div class="tile white" data-note=5></div>
+            <div class="tile white" data-note=6></div>
+            <div class="tile black" data-note=7></div>
+            <div class="tile white" data-note=8></div>
+            <div class="tile black" data-note=9></div>
+            <div class="tile white" data-note=10></div>
+            <div class="tile black" data-note=11></div>
+            <div class="tile white" data-note=12></div>
+            <div class="tile white" data-note=13></div>
+            <div class="tile black" data-note=14></div>
+            <div class="tile white" data-note=15></div>
+            <div class="tile black" data-note=16></div>
+            <div class="tile white" data-note=17></div>
+            <div class="tile white" data-note=18></div>
+            <div class="tile black" data-note=19></div>
+            <div class="tile white" data-note=20></div>
+            <div class="tile black" data-note=21></div>
+            <div class="tile white" data-note=22></div>
+            <div class="tile black" data-note=23></div>
+            <div class="tile white end" data-note=24></div>
+        </div>
+    </div>
+    <div class="clearbutton-container">
+        <button class="clearbutton" onclick="ClearButton()">CLEAR</button>
+        <button class="playbutton" onclick="PlayButton()">PLAY</button>
+    </div>
+</body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tonaljs/tonal@4.6.5/browser/tonal.min.js"></script>
+<script src="selectKeys.js"></script>
+</html>
